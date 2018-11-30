@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/andrewpalmer/Desktop/Unity Repos/Unzipped project Atonement/Project Atonement/Assembly-CSharp-Editor.csproj",
+  "TargetFramework": "v3.5",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
