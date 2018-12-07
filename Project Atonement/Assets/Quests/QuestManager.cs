@@ -64,14 +64,14 @@ public class QuestManager : MonoBehaviour {
 			}
 		} else {
 			if (inQuestChat) {
-				if (CrossPlatformInputManager.GetButton("Fire3")) {
+				if (CrossPlatformInputManager.GetButton("Fire2")) {
 					print("B option taken: Pride");
 					questGiverInChat.StartQuest();
 					questGiverInChat.PrideRouteTaken();
 					player.IncreasePride(100);
 					prideBackgroundInstance.GetComponentInChildren<Text>().text = player.GetPrideLvl().ToString();
 					EndQuestChat();
-				} else if (CrossPlatformInputManager.GetButton("Fire5")) {
+				} else if (CrossPlatformInputManager.GetButton("Fire3")) {
 					print("X option taken: Wrath");
 					questGiverInChat.StartQuest();
 					questGiverInChat.WrathRouteTaken();
@@ -88,14 +88,14 @@ public class QuestManager : MonoBehaviour {
 				}
 			}
 			if (inQuestCompletedChat) {
-				if (CrossPlatformInputManager.GetButton("Fire3")) {
+				if (CrossPlatformInputManager.GetButton("Fire2")) {
 					print("B option taken: Love");
 					questGiverInChat.CompleteQuest();
 					//questGiverInChat.LoveResponseTaken();
 					player.IncreaseLove(350);
 					loveBackgroundInstance.GetComponentInChildren<Text>().text = player.GetLoveLvl().ToString();
 					EndQuestCompletedChat();
-				} else if (CrossPlatformInputManager.GetButton("Fire5")) {
+				} else if (CrossPlatformInputManager.GetButton("Fire3")) {
 					print("X option taken: Greed");
 					questGiverInChat.CompleteQuest();
 					//questGiverInChat.GreedResponseTaken();
@@ -118,7 +118,7 @@ public class QuestManager : MonoBehaviour {
 						currentQuestGiver = questGiver;
 						if (!questGiver.QuestIsStarted()) {
 							SetText(questGiver.SendQuestStartText());
-							if (CrossPlatformInputManager.GetButton("Fire2")) {
+							if (CrossPlatformInputManager.GetButton("Fire1")) {
 								print("Quest Chat Started!");
 								StartQuestChat(questGiver);
 							}
@@ -126,7 +126,7 @@ public class QuestManager : MonoBehaviour {
 							SetText(questGiver.SendQuestBeganText());
 						} else if (questGiver.QuestIsReadyToBeCompleted() && !questGiver.QuestIsCompleted()) {
 							SetText(questGiver.SendQuestReadyToCompleteText());
-							if (CrossPlatformInputManager.GetButton("Fire2")) {
+							if (CrossPlatformInputManager.GetButton("Fire1")) {
 								print("Quest Completed Chat Started!");
 								StartQuestCompletedChat(questGiver);
 							}
