@@ -59,7 +59,7 @@ public class MultiplayerCameraFollow : NetworkBehaviour {
 	private void UpdateCameraRotation() {
 		//if (isLocalPlayer) {
 			if (player != null) {
-				transform.RotateAround(this.player.transform.position, Vector3.up, 5.0f * CrossPlatformInputManager.GetAxis("Horizontal Turn"));
+				transform.RotateAround(this.player.transform.position, Vector3.up, 5.0f * CrossPlatformInputManager.GetAxis("Oculus_GearVR_RThumbstickX"));
 			} else {
 				//check to see if it is local player first?
 				players = GameObject.FindGameObjectsWithTag("Player");

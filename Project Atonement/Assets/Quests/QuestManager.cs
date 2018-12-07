@@ -42,7 +42,7 @@ public class QuestManager : MonoBehaviour {
 	private QuestGiver questGiverInChat = null;
 	private bool inQuestChat = false;
 	private bool inQuestCompletedChat = false;
-	private string defaultText = "press t to toggle controls";
+	private string defaultText = "look around for people to help";
 
 	// Use this for initialization
 	void Start () {

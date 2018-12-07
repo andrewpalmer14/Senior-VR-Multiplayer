@@ -32,7 +32,7 @@ public class CameraFollow : MonoBehaviour {
 	// TODO: play around with camera rotation until I find something that works right
 	// Rotates camera with arrow keys or right stick of controller
 	private void UpdateCameraRotation() {
-		transform.RotateAround(this.player.transform.position, Vector3.up, 5.0f * CrossPlatformInputManager.GetAxis("Horizontal Turn"));
+		transform.RotateAround(this.player.transform.position, Vector3.up, 5.0f * CrossPlatformInputManager.GetAxis("Oculus_GearVR_RThumbstickX"));
 		//print("value: " + 5.0f * CrossPlatformInputManager.GetAxis("Vertical Turn"));
 		//transform.RotateAround(this.player.transform.position, Vector3.left, 5.0f * CrossPlatformInputManager.GetAxis("Vertical Turn"));
 	}

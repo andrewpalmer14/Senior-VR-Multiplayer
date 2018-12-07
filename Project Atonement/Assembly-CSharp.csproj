@@ -94,6 +94,7 @@
     <Compile Include="Assets\Quests\SafeZone.cs" />
     <Compile Include="Assets\SinglePlayerMenu.cs" />
     <Compile Include="Assets\SoloMenu.cs" />
+    <Compile Include="Assets\TestingScript.cs" />
     <Compile Include="Assets\z Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\z Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\z Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />

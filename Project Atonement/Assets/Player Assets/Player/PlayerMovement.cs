@@ -77,11 +77,11 @@ public class PlayerMovement : MonoBehaviour {
 			if (!m_Jump) {
 				//m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
 			}
-			if (CrossPlatformInputManager.GetButtonUp("Toggle Movement")) {
+			/*if (CrossPlatformInputManager.GetButtonUp("Toggle Movement")) {
 				usingControllerMovement = !usingControllerMovement;		// toggles movement controls
 				currentClickTarget = this.transform.position;
 				agent.SetDestination(this.transform.position);
-			}
+			}*/
 		}
 	}
 
@@ -119,9 +119,9 @@ public class PlayerMovement : MonoBehaviour {
 		//animator.SetBool("newCrouch", false);
 		agent.SetDestination(this.transform.position);
 		currentClickTarget = this.transform.position;
-		float h = CrossPlatformInputManager.GetAxis("Horizontal");
-		float v = CrossPlatformInputManager.GetAxis("Vertical");
-		if (CrossPlatformInputManager.GetButton("Attack")) {
+		float h = CrossPlatformInputManager.GetAxis("Oculus_GearVR_LThumbstickX");  // Horizontal
+		float v = CrossPlatformInputManager.GetAxis("Oculus_GearVR_LThumbstickY");    // Vertical
+		if (CrossPlatformInputManager.GetAxis("Oculus_GearVR_RIndexTrigger") > 0.5f) {   // Attack
 			var enemies = FindObjectsOfType<Enemy>();
 			if (enemies.Length > 0) {
 				foreach (Enemy enemy in enemies) {
