@@ -77,6 +77,7 @@
     <Compile Include="Assets\Enemies\Spawner.cs" />
     <Compile Include="Assets\Enemies\ThirdPersonEnemy.cs" />
     <Compile Include="Assets\Environment\Music\MusicManager.cs" />
+    <Compile Include="Assets\HideUI.cs" />
     <Compile Include="Assets\Menu.cs" />
     <Compile Include="Assets\MySceneManager.cs" />
     <Compile Include="Assets\Player Assets\Camera\CameraFollow.cs" />
