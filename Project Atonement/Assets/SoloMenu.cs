@@ -17,7 +17,6 @@ public class SoloMenu : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad(this);
-
 		newGameButton.gameObject.SetActive(true);
         continueGameButton.gameObject.SetActive(true);
         if (SaveLoad.savedGames.Count > 0) {
@@ -53,6 +52,8 @@ public class SoloMenu : MonoBehaviour {
 
     public void QuitGame() {
         SaveLoad.Save();
+        Debug.Log("quit");
+        Destroy(GameObject.Find("Player1"));
         newGameButton.gameObject.SetActive(true);
         continueGameButton.gameObject.SetActive(true);
         if (SaveLoad.savedGames.Count > 0) {

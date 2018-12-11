@@ -69,6 +69,7 @@
     <Compile Include="Assets\_Scenes\PlayerStats.cs" />
     <Compile Include="Assets\_Scenes\SaveLoad.cs" />
     <Compile Include="Assets\DestroyNetworkManager.cs" />
+    <Compile Include="Assets\DoNotDestroy.cs" />
     <Compile Include="Assets\Enemies\Enemy.cs" />
     <Compile Include="Assets\Enemies\EnemyHealthBar.cs" />
     <Compile Include="Assets\Enemies\EnemyUI.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Enemies\ThirdPersonEnemy.cs" />
     <Compile Include="Assets\Environment\Music\MusicManager.cs" />
     <Compile Include="Assets\HideUI.cs" />
+    <Compile Include="Assets\LevelComplete.cs" />
     <Compile Include="Assets\Menu.cs" />
     <Compile Include="Assets\MySceneManager.cs" />
     <Compile Include="Assets\Player Assets\Camera\CameraFollow.cs" />
