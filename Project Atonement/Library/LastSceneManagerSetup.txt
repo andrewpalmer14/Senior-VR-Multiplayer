@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/02 Single Player.unity
+- path: Assets/_Scenes/Level 1 - BLOOD Single Player.unity
   isLoaded: 1
   isActive: 1

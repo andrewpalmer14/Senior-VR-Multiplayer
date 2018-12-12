@@ -270,7 +270,7 @@ public class QuestGiver : MonoBehaviour {
 		} else if (!questCompleted) {
 			return "Return to villager";
 		} else  {
-			return "No current objectives";
+			return "Leave village";
 		}
 	}
 }
