@@ -115,10 +115,11 @@ public class Enemy : MonoBehaviour {
 	}
 
 	public void DealDamageToPlayer() {
-		Debug.Log(attackDamage);
-		var damage = Random.Range(attackDamage - (attackDamage * possibleDamageLossPercentage), attackDamage);
-		Debug.Log("damage dealt to player: " + damage);
-		player.DoDamageToPlayer(damage);
+        if ((this.transform.position - player.transform.position).magnitude < 5.0f)
+        {
+            var damage = Random.Range(attackDamage - (attackDamage * possibleDamageLossPercentage), attackDamage);
+            player.DoDamageToPlayer(damage);
+        }
 	}
 
 	public void DealDamageToEnemy(float damage) {
@@ -146,7 +147,7 @@ public class Enemy : MonoBehaviour {
 				destroyTimer = true;
 				this.player.IncreasePride (xpForKill);
 				questManager.UpdatePrideText ();
-				this.player.GetComponent<PlayerMovement> ().SetCurrentTargetToNull ();
+				this.player.GetComponent<PlayerMovement>().SetCurrentTargetToNull ();
 				if (spawner != null) {
 					spawner.RemoveEnemy (this);
 				}

@@ -37,7 +37,7 @@ public class QuestManager : MonoBehaviour {
 
 	private Text userUiText;
 	private Player player;
-	private QuestGiver[] questGivers;
+	public QuestGiver[] questGivers;
 	private QuestGiver currentQuestGiver = null;
 	private QuestGiver questGiverInChat = null;
 	private bool inQuestChat = false;
@@ -54,12 +54,28 @@ public class QuestManager : MonoBehaviour {
 			InstantiatePlayerUI();
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    public void DestroyQuestGivers()
+    {
+        foreach (QuestGiver qg in questGivers)
+        {
+            Destroy(qg);
+        }
+    }
+
+    // Update is called once per frame
+    void Update () {
+        if (questGivers == null || questGivers.Length == 0)
+        {
+            Debug.Log("found quest givers");
+            questGivers = FindObjectsOfType<QuestGiver>();
+            print(questGivers[0]);
+        }
 		if (player == null) {
+            Debug.Log("player null... searching");
 			player = FindObjectOfType<Player>();
 			if (player != null) {
+                Debug.Log("found player...!");
 				InstantiatePlayerUI();
 			}
 		} else {

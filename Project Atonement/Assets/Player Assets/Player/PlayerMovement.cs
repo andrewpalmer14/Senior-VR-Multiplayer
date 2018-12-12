@@ -254,7 +254,6 @@ public class PlayerMovement : MonoBehaviour {
 	public void DealDamageToEnemy() {
 		var wrathDamage = player.GetWrathLvl()/100.0f;
 		var damage = UnityEngine.Random.Range((attackMeleeDamage + wrathDamage) - ((attackMeleeDamage + wrathDamage) * possibleDamageLossPercentage), (attackMeleeDamage+ wrathDamage));
-		Debug.Log("player doing damage: " + damage);
 		if (!closestEnemy.GetEnemyDead()) {
 			closestEnemy.DealDamageToEnemy(damage);
 		}
