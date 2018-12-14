@@ -1,127 +1,335 @@
 Main Conflict... (conflict versus self but viewed as conflict of others)
 
 Level 01 - BLOOD
+
 1)
 conflict - The zombies aren't the real problem... There is a cruel ruler who is responsible for creating these zombies. He is in control of them!
-response -  
-resolution -
+response 1 - I'll help with the zombies in town! (kill zombies)
+response 2 - You are crazy! (kill him)
+response 3 - I don't have time right now. (ignore)
+resolution - Thanks for getting rid of them, you can take one of the following for your efforts:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
 2)
 conflict - The man responsible for our suffering is not stopable, our best bet is finding medical supplies. Can you help?
-resolution - 
+response 1 - I'll look for some supplies. (find supplies)
+response 2 - I am unstoppable (kill him)
+response 3 - If I have time... (ignore)
+resolution - This will help us recover, here take one:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 02 - DNA
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+3)
+conflict - A little help here? There are tons of these things!
+response 1 - I got your back! (help him)
+response 2 - Every man for themselves! (kill him)
+response 3 - If I have time... (ignore)
+resolution - Thank you for the help, there seems to be more of them than humanly possible... Take a reward:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+4)
+conflict - I had some DNA tests of the zombies setup in a few areas, they should be ready to be analyzed but it's too dangerous out there for me now.
+response 1 - I'll go get them (find samples)
+response 2 - I don't trust you (kill him)
+response 3 - If I have time... (ignore)
+resolution - These results are exactly what I feared... their DNA is identical. Anyways, here take something:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 03 - YAH
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+5)
+conflict - The shelter got overtaken by zombies, can you help get rid of them?
+response 1 - No problem! (kill zombies)
+response 2 - I don't trust you (kill him)
+response 3 - If I have time... (ignore)
+resolution - Thanks for the help, here a reward:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+6)
+conflict - We are gathering food to supply this shelter to wait out the crisis, can you help stock this place?
+response 1 - Sure! (stock shelter)
+response 2 - There is not enough for everyone (kill him)
+response 3 - Maybe later (ignore)
+resolution - Great job, should get us through the week. Heres a reward:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 04 - ELEMENT
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+7)
+conflict - You're wasting your time! There is not going to be an end to this. Why are you still trying?
+response 1 - You don't decide my fate (kill zombies)
+response 2 - You sound like one of them (kill him)
+response 3 - What's wrong with you?! (ignore him)
+resolution - This proves nothing.
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+8)
+conflict - We have to take this fight into our own hands, some people are starting to give up... Would you mind helping us find weapons to fend them off?
+response 1 - Of course, let's do this (help him)
+response 2 - You should give up too (hill him)
+response 3 - Not sure if I have time (ignore)
+resolution - This is a great start for us. We can't give up. Here's a reward:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 05 - FEEL
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+9)
+conflict - Help was supposed to be here by now. Do you think anyone is coming?
+response 1 - I am sure! (kill zombies)
+response 2 - Nobody is coming. (kill him)
+response 3 - It is unlikely (ignore)
+resolution - I am worried that this is it for us. Take something:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+10)
+conflict - Nobody is coming, can you help stock up. I am expecting the worse.
+response 1 - I can help, don't give up. (help him)
+response 2 - I have to help myself (kill him)
+response 3 - I'll think about it (ignore him)
+resolution - Thanks for helping. I should be set!
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 06 - LOYALTY
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+10)
+conflict - Savior! Word has traveled of you. Are you here to help?
+response 1 - Yes, we have to end this. (help him)
+response 2 - This will help. (kill him)
+response 3 - If I have time (ignore)
+resolution - You are our only hope, take whatever you need!:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+12)
+conflict - I will only open the next gate if you help me.
+response 1 - I'll help. (help him)
+response 2 - I'll take them myself (kill him)
+response 3 - Not sure (ignore)
+resolution - I'll open the gate. Here's something extra:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 07 - PRIDE
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+13)
+conflict - You look a lot like those zombies... Seems a little weird to me
+response 1 - So? (kill zombies)
+response 2 - I fight better (kill him)
+response 3 - Whatever (ignore)
+resolution - Thanks for helping out. I still can't get over how closely you resemble them...
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+14)
+conflict - Whoa, I thought you were one of them. Mind helping out around here?
+response 1 - I get that a lot (help him)
+response 2 - Forget you (kill him)
+response 3 - Later (ignore)
+resolution - Thanks for the help, take one:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 08 - HUMBLE
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+15)
+conflict - You look just like the one who caused all these zombies. Prove that you aren't or we are going to have problems here.
+response 1 - I will show you (kill zombies)
+response 2 - I have nothing to prove (kill him)
+response 3 - I don't have time for this (ignore)
+resolution - Be careful going forward, people will be sceptical of you...
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+16)
+conflict - Did you cause this? You look just like the ruler who was supposed to help us but instead did all of this.
+response 1 - No of course not (help him)
+response 2 - I answer to no one (kill him)
+response 3 - Leave me alone (ignore)
+resolution - Please leave, you make me nervous
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 09 - LUST
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+17)
+conflict - Leave immediately! We will attack you!
+response 1 - I am here to help! (kill zombies)
+response 2 - Out of my way (kill him)
+response 3 - Leave me alone (ignore)
+resolution - Nobody is buying that you are with us. I will give you this is you leave:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+18)
+conflict - There are supplies around here that you can have, just please don't hurt me.
+response 1 - I'll gather them up (help him)
+response 2 - I do what I want (kill him)
+response 3 - I'll take those! (ignore)
+resolution - Please don't hurt me, take whatever you want:
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 10 - LOVE
-1)
-conflict - 
-response -
+
+19)
+conflict - I warn you, you are entering very weird territory if you choose to continue. If you do you will learn things that will change everything.
+response 1 - I accept (kill zombies)
+response 2 - You are crazy! (kill him)
+response 3 - Whatever (ignore)
 resolution -
-2)
-conflict - 
-response -
-resolution -
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+20)
+conflict - Those boxes have supplies that keep us living here. Please get some for me.
+response 1 - Be right back! (help him)
+response 2 - I'll take those (kill him)
+response 3 - Later (ignore)
+resolution - Thanks for the help. You are going to learn a lot about yourself out there.
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 11 - XXX
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+21)
+conflict - I saw the ruler who is sending zombies. Help me fight through these and I'll point you in the right direction!
+response 1 - Sounds good. (kill zombies)
+response 2 - I'll find my own way (kill him)
+response 3 - I'll think about it (ignore)
+resolution - The ruler is not far from here. Keep moving toward the darkness. If we don't stop him soon it will be too late.
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+22)
+conflict - I wouldn't keep going if I were you. The ruler passed through recently. Either way, can you help me out first?
+response 1 - Sure! (help him)
+response 2 - I don't have time (kill him)
+response 3 - Maybe (ignore)
+resolution - Thanks for helping out. If I were you I'd stop trying to chase him down. It's not worth it.
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 12 - FEAR
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+23)
+conflict - Help, the ruler took the weapons from us and brought more zombies.
+response 1 - I got you! (kill zombies)
+response 2 - I'll put you out of your misery (kill him)
+response 3 - If I have time (ignore)
+resolution - The ruler is cruel and unforgiving. Just keep that in mind if you continue.
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+24)
+conflict - The ruler took most of what we had. Do you mind finding some scraps around to keep us going?
+response 1 - I'll help (find supplies)
+response 2 - It's easier this way (kill him)
+response 3 - Maybe (ignore)
+resolution - Thanks for the help. The ruler looked a lot like you! He was a lot less forgiving though.
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 13 - GOD
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+25)
+conflict - We have heard of your deeds! It is so great to see you. I thought you might get disheartened but you have prevailed! Mind getting rid of them so we can talk?
+response 1 - Of course! (kill zombies)
+response 2 - You stand in my way (kill him)
+response 3 - In a second (ignore)
+resolution - In case you didn't catch on... You manifested the zombies. They are not who you are, but a result of the choices you make. Keep moving forward!
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+26)
+conflict - Help me get my stuff back and I'll give you some advice
+response 1 - Sure (find supplies)
+response 2 - I don't need any advice (kill him)
+response 3 - I'll think about it (ignore)
+resolution - Choose wisely when you reach the next area. Your choices will have even more weight than you know.
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+
+
 Level 14 - DUCKWORTH
-1)
-conflict - 
-response -
-resolution -
-2)
-conflict - 
-response -
-resolution -
+
+27)
+conflict - The zombies were the versions of you that you avoid. The evil comes from hiding from the pain instead of running towards it and fighting it. Kill them off.
+response 1 - I will end this (kill zombies)
+response 2 - You sound crazy (kill him)
+response 3 - Give me a second (later)
+resolution - Evil cannot be undone, but it cannot develop into good. Time does not heal it. The spell must be unwound bit by bit.
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health
+
+28)
+conflict - If it offends you, cut it off. I respect the way in which you have done that. If you'll give me a hand we can talk more.
+response 1 - 
+response 2 - 
+response 3 - 
+resolution - The battle is never against anything but yourself. Live, learn, and don't forget to reflect. Be the best version of yourself that you can one day at a time.
+reward 1 - +health regen
+reward 2 - +damage
+reward 3 - +max health

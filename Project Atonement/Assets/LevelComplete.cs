@@ -8,7 +8,12 @@ public class LevelComplete : MonoBehaviour {
     public string sceneName;
     public GameObject gate;
     public QuestGiver[] questGivers;
-    public QuestManager questManager;
+    private QuestManager questManager;
+
+    private void Start()
+    {
+        questManager = FindObjectOfType<QuestManager>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -19,6 +24,11 @@ public class LevelComplete : MonoBehaviour {
 
     private void Update()
     {
+        if (questManager == null)
+        {
+            questManager = FindObjectOfType<QuestManager>();//GameObject.FindObjectOfType<QuestManager>();
+            print("found quest manager");
+        }
         foreach(QuestGiver questGiver in questGivers)
         {
             if (!questGiver.QuestIsCompleted())

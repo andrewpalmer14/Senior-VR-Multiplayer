@@ -61,13 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Scenes\Character.cs" />
-    <Compile Include="Assets\_Scenes\Game.cs" />
-    <Compile Include="Assets\_Scenes\Gameplay.cs" />
-    <Compile Include="Assets\_Scenes\LevelManager.cs" />
-    <Compile Include="Assets\_Scenes\MainMenu.cs" />
-    <Compile Include="Assets\_Scenes\PlayerStats.cs" />
-    <Compile Include="Assets\_Scenes\SaveLoad.cs" />
+    <Compile Include="Assets\Character.cs" />
     <Compile Include="Assets\DestroyNetworkManager.cs" />
     <Compile Include="Assets\DoNotDestroy.cs" />
     <Compile Include="Assets\Enemies\Enemy.cs" />
@@ -78,8 +72,12 @@
     <Compile Include="Assets\Enemies\Spawner.cs" />
     <Compile Include="Assets\Enemies\ThirdPersonEnemy.cs" />
     <Compile Include="Assets\Environment\Music\MusicManager.cs" />
+    <Compile Include="Assets\Game.cs" />
+    <Compile Include="Assets\Gameplay.cs" />
     <Compile Include="Assets\HideUI.cs" />
     <Compile Include="Assets\LevelComplete.cs" />
+    <Compile Include="Assets\LevelManager.cs" />
+    <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\Menu.cs" />
     <Compile Include="Assets\MySceneManager.cs" />
     <Compile Include="Assets\Player Assets\Camera\CameraFollow.cs" />
@@ -90,11 +88,13 @@
     <Compile Include="Assets\Player Assets\Player\Player.cs" />
     <Compile Include="Assets\Player Assets\Player\PlayerHealthBar.cs" />
     <Compile Include="Assets\Player Assets\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\PlayerStats.cs" />
     <Compile Include="Assets\QuestItem.cs" />
     <Compile Include="Assets\Quests\NPCUI.cs" />
     <Compile Include="Assets\Quests\QuestGiver.cs" />
     <Compile Include="Assets\Quests\QuestManager.cs" />
     <Compile Include="Assets\Quests\SafeZone.cs" />
+    <Compile Include="Assets\SaveLoad.cs" />
     <Compile Include="Assets\SinglePlayerMenu.cs" />
     <Compile Include="Assets\SoloMenu.cs" />
     <Compile Include="Assets\TestingScript.cs" />
